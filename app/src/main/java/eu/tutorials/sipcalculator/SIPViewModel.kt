@@ -26,7 +26,6 @@ class SIPViewModel : ViewModel() {
     var isLumpsum by mutableStateOf(false)
 
 
-
     fun calculateLumpsum() {
         val totalInvestmentLumpsum = if (inputTotalInvestmentLumpsum < 500) 500 else inputTotalInvestmentLumpsum
         val estReturn = if (inputEstReturn < 1) 0.01 else inputEstReturn.toDouble() / 100
