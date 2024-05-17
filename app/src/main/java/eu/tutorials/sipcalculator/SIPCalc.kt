@@ -82,7 +82,6 @@ if (viewModel.showDialog) {
     }
 }
 
-
     LazyColumn(
         modifier = Modifier
             .background(LightGray)
