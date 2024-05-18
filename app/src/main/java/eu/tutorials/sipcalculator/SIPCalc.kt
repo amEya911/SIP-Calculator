@@ -2,7 +2,6 @@ package eu.tutorials.sipcalculator
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -16,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ModalBottomSheet
@@ -66,17 +64,17 @@ if (viewModel.showDialog) {
                 .padding(32.dp)
         ) {
             Text(
-                text = "What is Inflation and Purchasing Power?\n" +
-                    "\n" +
-                    "Inflation: Inflation is when prices go up over time. Because of this, the money you have now won't buy as much in the future as it does today.\n" +
-                    "\n" +
-                    "Purchasing Power: This is how much you can buy with your money. When inflation happens, your money buys less.\n" +
-                    "\n" +
-                    "For example, if something costs ₹100 today, and there's a 3% inflation rate, that same thing will cost ₹103 next year. Over many years, this adds up, and your money doesn't go as far.\n" +
-                    "\n" +
-                    "Our calculator shows you what your investments will be worth in the future, considering inflation, so you can see their real value in today's money.\n" +
-                    "\n" +
-                    "If you don't want to add inflation, keep the inflation to 0"
+                text = "Understanding Inflation and Purchasing Power\n" +
+                        "\n" +
+                        "Inflation: Inflation refers to the gradual increase in prices over time. As prices rise, the money you currently possess will not purchase as much in the future as it does today.\n" +
+                        "\n" +
+                        "Purchasing Power: Purchasing power is the amount of goods and services that can be bought with your money. When inflation occurs, the purchasing power of your money decreases.\n" +
+                        "\n" +
+                        "For instance, if an item costs ₹100 today and the inflation rate is 3%, the same item will cost ₹103 next year. Over many years, this effect accumulates, reducing the value of your money.\n" +
+                        "\n" +
+                        "Our calculator helps you understand the future value of your investments by accounting for inflation, allowing you to see their real value in today's terms.\n" +
+                        "\n" +
+                        "If you prefer not to include inflation in your calculations, you may set the inflation rate to 0."
             )
         }
     }

@@ -55,8 +55,8 @@ fun BottomBox(
                 val rows = if (inputInflation != 0) {
                     listOf(
                         "Invested" to displayTotalInvestment,
-                        "Returns" to displayEstReturn,
-                        "Total Value" to displayTotalValue,
+                        "Returns (Without Inflation)" to displayEstReturn,
+                        "Total Value Before Inflation" to displayTotalValue,
                         "Total Value After Inflation" to displayTotalValueAfterInflation
                     )
                 } else {
@@ -67,7 +67,7 @@ fun BottomBox(
                     )
                 }
 
-                rows.forEach { (title, value) ->
+                rows.forEachIndexed { index, (title, value) ->
                     val formattedValue = if (value > 1000) {
                         " (${formatNumber(value)})"
                     } else {
@@ -81,9 +81,9 @@ fun BottomBox(
                         Text(text = title, fontSize = 15.sp)
                         Text(
                             modifier = Modifier.padding(start = 8.dp).basicMarquee(),
-                            text = if (title == "Returns") "+₹${value.addCommas()}$formattedValue" else "₹${value.addCommas()}$formattedValue",
+                            text = if (index == 1) "+₹${value.addCommas()}$formattedValue" else "₹${value.addCommas()}$formattedValue",
                             fontSize = 15.sp,
-                            color = if (title == "Returns") LightGreen else Color.Black,
+                            color = if (index == 1) LightGreen else Color.Black,
                             maxLines = 1
                         )
                     }
