@@ -89,8 +89,9 @@ Where:\
 -	Additional Investment Options: Include more investment options beyond SIP and Lumpsum for a broader user base.
 
 ## Screenshots
-![WhatsApp Image 2024-05-19 at 8 42 05 PM (2)](https://github.com/amEya911/SIP-Calculator/assets/112489532/14c2619d-a73b-48b1-8d92-d17a32b7f03a)
-![WhatsApp Image 2024-05-19 at 8 42 05 PM (1)](https://github.com/amEya911/SIP-Calculator/assets/112489532/b9776ae8-6c2a-4d63-aff7-f0d4a8db3f05)
-![WhatsApp Image 2024-05-19 at 8 42 05 PM](https://github.com/amEya911/SIP-Calculator/assets/112489532/5cb3411c-b6af-4954-84b9-3b4f103e3505)
+<img src="![WhatsApp Image 2024-05-19 at 8 42 05 PM (2)](https://github.com/amEya911/SIP-Calculator/assets/112489532/14c2619d-a73b-48b1-8d92-d17a32b7f03a)" width="100%" height="45%"><img src="![WhatsApp Image 2024-05-19 at 8 42 05 PM (1)](https://github.com/amEya911/SIP-Calculator/assets/112489532/b9776ae8-6c2a-4d63-aff7-f0d4a8db3f05)" width="100%" height="45%"><img src="![WhatsApp Image 2024-05-19 at 8 42 05 PM](https://github.com/amEya911/SIP-Calculator/assets/112489532/5cb3411c-b6af-4954-84b9-3b4f103e3505)" width="100%" height="45%">
+
+
+
 
 
