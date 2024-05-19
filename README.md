@@ -48,7 +48,7 @@ The SIP Calculator app is a versatile tool designed to assist users in calculati
 3.	Investment Calculation:
 -	For SIP Calculation, the formula used is:
 
- https://github.com/amEya911/SIP-Calculator/assets/112489532/65ea4a71-ff31-4297-b2d8-65c92e1f9fed
+![Picture1](https://github.com/amEya911/SIP-Calculator/assets/112489532/b72d20de-6a09-4e18-b04a-52234b7c0f33)
 
 Where:\
 •	P = Monthly investment amount \
@@ -57,7 +57,7 @@ Where:\
 
 -	For Lumpsum Calculation, the formula used is:
 
-  https://github.com/amEya911/SIP-Calculator/assets/112489532/86d4e684-c3a8-4d20-afc5-83699258326b
+![Picture2](https://github.com/amEya911/SIP-Calculator/assets/112489532/86d4e684-c3a8-4d20-afc5-83699258326b)
  
 Where:\
 •	P = Total investment amount\
@@ -67,7 +67,7 @@ Where:\
 4.	Inflation Adjustment:
 -	The app calculates the purchasing power after adjusting for inflation using the formula:
 
-  https://github.com/amEya911/SIP-Calculator/assets/112489532/65ea4a71-ff31-4297-b2d8-65c92e1f9fed
+![Picture3](https://github.com/amEya911/SIP-Calculator/assets/112489532/65ea4a71-ff31-4297-b2d8-65c92e1f9fed)
  
 Where:\
 •	n = Investment duration in years
@@ -89,8 +89,8 @@ Where:\
 -	Additional Investment Options: Include more investment options beyond SIP and Lumpsum for a broader user base.
 
 ## Screenshots
-https://github.com/amEya911/SIP-Calculator/assets/112489532/14c2619d-a73b-48b1-8d92-d17a32b7f03a
-https://github.com/amEya911/SIP-Calculator/assets/112489532/b9776ae8-6c2a-4d63-aff7-f0d4a8db3f05
-https://github.com/amEya911/SIP-Calculator/assets/112489532/5cb3411c-b6af-4954-84b9-3b4f103e3505
+![WhatsApp Image 2024-05-19 at 8 42 05 PM (2)](https://github.com/amEya911/SIP-Calculator/assets/112489532/14c2619d-a73b-48b1-8d92-d17a32b7f03a)
+![WhatsApp Image 2024-05-19 at 8 42 05 PM (1)](https://github.com/amEya911/SIP-Calculator/assets/112489532/b9776ae8-6c2a-4d63-aff7-f0d4a8db3f05)
+![WhatsApp Image 2024-05-19 at 8 42 05 PM](https://github.com/amEya911/SIP-Calculator/assets/112489532/5cb3411c-b6af-4954-84b9-3b4f103e3505)
 
 
