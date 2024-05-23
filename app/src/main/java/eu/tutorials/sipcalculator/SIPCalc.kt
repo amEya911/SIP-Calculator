@@ -239,6 +239,8 @@ if (viewModel.showDialog) {
                 }
             )
 
+            if (viewModel.inputInflation > 20) viewModel.inputInflation = 20
+
             CustomSlider(
                 value = mutableStateOf(viewModel.inputInflation.toFloat()),
                 onValueChange = { viewModel.inputInflation = it.toInt()},
